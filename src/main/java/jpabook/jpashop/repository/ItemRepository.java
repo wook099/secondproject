@@ -28,4 +28,9 @@ public class ItemRepository {
         return em.createQuery("select i from Item i", Item.class)
                 .getResultList();
     }
+
+    //아이템 리포지토리 변경사항 추가
+    public List<Item> ff(){
+        return null;
+    }
 }
