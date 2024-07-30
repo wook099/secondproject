@@ -29,8 +29,4 @@ public class ItemRepository {
                 .getResultList();
     }
 
-    //아이템 리포지토리 변경사항 추가
-    public List<Item> ff(){
-        return null;
-    }
 }
